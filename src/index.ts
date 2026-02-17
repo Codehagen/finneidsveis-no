@@ -1,0 +1,12 @@
+export { Hero, type HeroProps } from "./components/landing/hero";
+export { Services, type ServicesProps, type Service } from "./components/landing/services";
+export { About, type AboutProps } from "./components/landing/about";
+export { Contact, type ContactProps, type ContactInfo } from "./components/landing/contact";
+export { Footer, type FooterProps } from "./components/landing/footer";
+export { Header, type HeaderProps, type NavLink } from "./components/landing/header";
+export { Logos, type LogosProps, type LogoItem } from "./components/landing/logos";
+export { CTASection, type CTASectionProps } from "./components/landing/cta";
+export { Stats, type StatsProps, type Stat } from "./components/landing/stats";
+export { Features, type FeaturesProps, type Feature } from "./components/landing/features";
+export { Process, type ProcessProps, type ProcessStep } from "./components/landing/process";
+export { Testimonials, type TestimonialsProps, type Testimonial } from "./components/landing/testimonials";
