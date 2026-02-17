@@ -9,15 +9,6 @@ const NAV_LINKS = [
   { label: "Kontakt", href: "/kontakt" },
 ];
 
-const CONTACTS = [
-  { name: "Heidi Anita Johansen", role: "Kontormedarbeider" },
-  { name: "Øyvind Wangberg", role: "Prosjektleder" },
-  { name: "Tor-Arne Berg", role: "Produksjonsleder" },
-  { name: "Stig Olsen", role: "Prosjektleder" },
-  { name: "Erik Hugås", role: "Konstruktør/Tegner" },
-  { name: "Tor-Einar Vatnan", role: "Ingeniør/Prosjektleder" }
-];
-
 export default function Page() {
   return (
     <Layout
@@ -58,14 +49,13 @@ export default function Page() {
       }}
     >
       <ContactPage 
-        title="Kontakt oss"
-        subtitle="Ta gjerne kontakt med oss for en uforpliktende samtale om ditt prosjekt"
-        contactInfo={{
+        companyName="Finneid Sveiseverksted AS"
+        contact={{
           phone: "75 62 00 00",
           email: "post@finneidsveis.no",
           address: "Finneid, 8220 Fauske"
         }}
-        contacts={CONTACTS}
+        openingHours="07:00 - 16:00 mandag til fredag"
         primaryColor={PRIMARY_COLOR}
       />
     </Layout>
